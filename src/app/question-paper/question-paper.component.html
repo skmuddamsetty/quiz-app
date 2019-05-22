@@ -1,0 +1,8 @@
+<div class="col-sm">
+  <app-question-detail
+    *ngFor="let item of this.questions"
+    [question]="item.question"
+    [options]="item.options"
+  >
+  </app-question-detail>
+</div>

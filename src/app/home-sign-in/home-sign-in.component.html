@@ -1,0 +1,33 @@
+<section class="signin-fgorm">
+  <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+    <div class="main">
+      <div class="main-sub-box">
+        <div class="user-name-box">
+          <p>Username</p>
+          <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            ngModel
+            name="email"
+          />
+          <!--  <input type="checkbox" name="vehicle1" value="Bike" /> Remember Me<br />-->
+        </div>
+        <div class="password-box">
+          <p>Password</p>
+          <input
+            type="text"
+            name="password"
+            placeholder="Password"
+            ngModel
+            name="password"
+          />
+          <!-- <a href="#"> Forgot Username or Password?</a> -->
+        </div>
+        <div class="sign-in-box">
+          <button type="submit">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>

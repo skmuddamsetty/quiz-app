@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="main">
+    <p>
+      <!-- 1. A clickable link that takes you from one document to another, or to any
+      resource, even within a the same document, with text that is highlighted
+      in some fashion is called-->
+      {{ question }}
+    </p>
+    <!-- <input
+      type="radio"
+      name="options"
+      *ngFor="let option of options"
+      [value]="option"
+      [(ngModel)]="options"
+    />{{ option }} -->
+
+    <label *ngFor="let option of options">
+      <input type="radio" name="options" [value]="option" />
+      {{ option }}
+      <br />
+    </label>
+  </div>
+</div>

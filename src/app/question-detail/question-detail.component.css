@@ -1,0 +1,11 @@
+.card {
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* align-content: center center; */
+  transform: translate(50%, 20%);
+}
+
+.main {
+  font-size: 20px;
+  padding: 2px 16px;
+}

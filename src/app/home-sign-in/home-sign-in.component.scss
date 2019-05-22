@@ -1,0 +1,62 @@
+.main {
+  background: #f4f4f4;
+  &-sub-box {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: stretch;
+    padding: 32px 0;
+  }
+}
+p {
+  font-size: 12px;
+  color: #273b49;
+  margin-bottom: 5px;
+}
+.user-name-box {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.password-box {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sign-in-box {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+button {
+  cursor: pointer;
+  background: #128020;
+  font-size: 14px;
+  font-weight: 600;
+  height: 29px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  font-weight: 400;
+  color: white;
+}
+input {
+  display: flex;
+  height: 29px;
+  outline: none;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #687680;
+  padding: 5px 5px;
+  font-family: Optimist, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+a {
+  display: flex;
+  color: #0d74af;
+  text-decoration: none;
+  font-size: 11px;
+  margin-left: 1px;
+  padding-top: 9px;
+}
