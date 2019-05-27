@@ -1,0 +1,65 @@
+h1,
+h2 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+
+.w3-container {
+  width: 50%;
+  padding: 0.01em 16px;
+  float: left;
+}
+
+.quizcontainer {
+  margin-top: 32px;
+}
+.quizheader {
+  background-color: #f1f1f1;
+  color: #555;
+  text-align: center;
+  padding: 1px 0;
+}
+.quizheader h2 {
+  padding-top: 20px;
+}
+
+.quizbody {
+  position: relative;
+  background-color: #f1f1f1;
+  color: #555;
+  text-align: center;
+  padding: 10px 20px;
+  height: 160px;
+}
+.quizbody div {
+  height: 60px;
+}
+.w3-btn {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+}
+w3-green:link,
+w3-green:visited {
+  background-color: #4caf50;
+}
+w3-green:hover,
+w3-green:active {
+  color: #fff !important;
+  background-color: red;
+}

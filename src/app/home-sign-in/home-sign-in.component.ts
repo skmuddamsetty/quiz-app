@@ -13,6 +13,7 @@ export class HomeSignInComponent implements OnInit {
 
   onSubmit(form: NgForm) {
     localStorage.setItem('username', form.value.email);
-    this.router.navigate(['/questions']);
+    // this.router.navigate(['/questions']);
+    this.router.navigate(['/welcome']);
   }
 }

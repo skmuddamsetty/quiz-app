@@ -9,6 +9,7 @@ import { QuetionsComponent } from './quetions/quetions.component';
 import { QuestionDetailComponent } from './question-detail/question-detail.component';
 import { QuestionPaperComponent } from './question-paper/question-paper.component';
 import { DataService } from './data.service';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DataService } from './data.service';
     HomeSignInComponent,
     QuetionsComponent,
     QuestionDetailComponent,
-    QuestionPaperComponent
+    QuestionPaperComponent,
+    WelcomeComponent
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [DataService],
